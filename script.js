@@ -1,3 +1,5 @@
+alert("le sites n'est pas encore finis")
+
 const navH1 = document.querySelector('nav h1');
 
 window.addEventListener('resize', () => {

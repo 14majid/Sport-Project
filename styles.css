@@ -486,9 +486,12 @@ footer h2 {
 #copy {
     background-color: var(--second-color);
     color: #fff;
-    opacity: 0.5;
     margin: 0;
     text-align: center;
+}
+
+#copy span {
+    opacity: .5;
 }
 
 
