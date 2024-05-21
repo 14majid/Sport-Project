@@ -24,12 +24,6 @@ body {
     --pad: 64px 96px
 }
 
-.color-change {
-    /* background-color: rgba(0, 0, 0, 0.9); */
-    background-color: var(--main-color);
-    color: #fff;
-}
-
 
 /*********** navigation bar ***********/
 nav {

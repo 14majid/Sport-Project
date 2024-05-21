@@ -161,3 +161,38 @@ section {
     padding: 5px 0 50px;
     margin: 30px 10px;
 }
+
+footer {
+    /* background-color: var(--second-color); */
+    /* color: #fff; */
+    text-align: center;
+    padding: 80px 64px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer h2 {
+    font-size: 32px;
+}
+
+.social-icons {
+    align-self: flex-end;
+}
+
+.social-icons a {
+    padding: 8px;
+    /* color: #fff; */
+}
+
+#copy {
+    /* background-color: var(--second-color); */
+    /* color: #fff; */
+    margin: 0;
+    text-align: center;
+}
+
+#copy span {
+    opacity: .5;
+}

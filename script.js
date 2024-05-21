@@ -1,24 +1,5 @@
 alert("le sites n'est pas encore finis")
 
-const body = document.querySelector('body');
-const navOng = document.querySelectorAll('nav .onglet p a');
-const sphere = document.querySelector('#sphere');
-
-let isSun = false;
-
-sphere.addEventListener('click', () => {
-  body.classList.toggle('color-change');
-  
-  if (isSun) {
-    sphere.innerHTML = "<i class='bx bxs-moon'></i>";
-    navOng.forEach(nav => { nav.style.color ='#1E123A'; }); // Fixed color value
-    isSun = false;
-  } else {
-    sphere.innerHTML = "<i class='bx bxs-sun'></i>";
-    navOng.forEach(nav => { nav.style.color ='#fff'; });
-    isSun = true;
-  }
-});
 
 const navH1 = document.querySelector('nav h1');
 
